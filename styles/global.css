@@ -1,0 +1,40 @@
+@font-face {
+   font-family: Catamaran;
+   src: url(./fonts/Catamaran-Regular.ttf) format("truetype");
+}
+
+body {
+   font-family: Catamaran, sans-serif;
+   letter-spacing: 0.3px;
+   margin: 0;
+}
+
+.app {
+   display: flex;
+   flex-direction: column;
+}
+
+.left {
+   color: #efefef;
+   background-image: linear-gradient(to left top, rgba(67, 206, 162, 0.8), rgba(24, 90, 157, 0.8)), url('https://www.dropbox.com/s/2z4coujl8zf9982/profile-photo1.png?raw=1');
+   opacity: 0.85;
+   background-size: cover;
+
+   width: 100%;
+   min-height: 100vh;
+   text-align: center;
+}
+
+
+.left-inner {
+   height: 100%;
+   min-height: 24rem;
+   padding: 50px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+.icon1 {
+   margin: 10px;
+}
