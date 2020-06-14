@@ -15,24 +15,37 @@ body {
 }
 
 .left {
-   color: #efefef;
-   background-image: linear-gradient(to left top, rgba(67, 206, 162, 0.8), rgba(24, 90, 157, 0.8)), url('https://www.dropbox.com/s/2z4coujl8zf9982/profile-photo1.png?raw=1');
-   opacity: 0.85;
+   color: whitesmoke;
+   background-image:
+      linear-gradient(to left top, rgba(138, 238, 113, 0.8), rgba(73, 76, 214, 0.8)),
+      url('https://www.dropbox.com/s/2z4coujl8zf9982/profile-photo1.png?raw=1');
+
    background-size: cover;
 
    width: 100%;
-   min-height: 100vh;
+   height: 100vh;
    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 
-.left-inner {
-   height: 100%;
-   min-height: 24rem;
-   padding: 50px;
+.info {
+   height: 100vh;
    display: flex;
-   align-items: flex-end;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding-bottom: 10vh;
+}
+
+.name {
+   margin-bottom: 0;
+}
+
+.subtext {
+   margin-top: 0;
+   margin-bottom: 40px;
 }
 
 .icon1 {
