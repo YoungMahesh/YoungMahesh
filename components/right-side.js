@@ -1,3 +1,5 @@
+import '../styles/right-side.css'
+
 export default function RightSide() {
    return(
       <div className='right'>
@@ -12,24 +14,27 @@ export default function RightSide() {
          <div className='info-block'>
             <h4 className='info-title'>PROJECTS</h4>
             <div className='content'>
-               <a className='project-name' href='https://crownclothing.now.sh/' target='_blank'>
+
+               <p>
+                  <a className='project-name' href='https://crownclothing.now.sh/' target='_blank'>
                   Crown-Clothing
-               </a>
-               <p className='project-description'>
+                  </a>
                   My first project build while learning from a Udemy course on ReactJS
                </p>
 
-               <a className='project-name' href='https://notebook007.now.sh/' target='_blank'>
+
+
+               <p>
+                  <a className='project-name' href='https://notebook007.now.sh/' target='_blank'>
                   Notebook007
-               </a>
-               <p className='project-description'>
+                  </a>
                   A reference guide for a web-developer.
                </p>
 
-               <a className='project-name' href='https://techtube.now.sh/' target='_blank'>
+               <p>
+                  <a className='project-name' href='https://techtube.now.sh/' target='_blank'>
                   TechTube
-               </a>
-               <p className='project-description'>
+                  </a>
                   Collection of best tech-videos using YouTube api. [Website in development]
                </p>
             </div>

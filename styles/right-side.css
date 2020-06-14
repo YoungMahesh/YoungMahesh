@@ -1,0 +1,50 @@
+.right {
+   padding: 5vh;
+}
+
+.info-block {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 4em;
+}
+
+.info-title {
+   color: #2A54F5;
+   font-family: CatamaranBold, sans-serif;
+   margin-bottom: 0;
+}
+
+.project-name {
+   display: block;
+   font-weight: 900;
+   color: black;
+}
+
+
+.pdf-link {
+   text-align: center;
+   margin-top: 4rem;
+   text-decoration: none;
+}
+
+.pdf-link p {
+   color: #2A54F5;
+   background-color: whitesmoke;
+   padding: 15px 0px;
+   font-size: large;
+}
+
+
+@media screen and (min-width: 900px) {
+   .right {
+      margin-left: 50%;
+   }
+
+   .info-block {
+      flex-direction: row;
+   }
+
+   .info-title {
+      min-width: 8em;
+   }
+}
