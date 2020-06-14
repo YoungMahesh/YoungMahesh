@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import LeftSide from '../components/left-side'
+import RightSide from '../components/right-side'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <LeftSide />
 
+      <RightSide />
     </div>
   )
 }

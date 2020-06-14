@@ -1,6 +1,13 @@
 @font-face {
    font-family: Catamaran;
    src: url(./fonts/Catamaran-Regular.ttf) format("truetype");
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: CatamaranBold;
+   src: url(./fonts/Catamaran-ExtraBold.ttf) format("truetype");
+   font-weight: bolder;
 }
 
 body {
@@ -19,7 +26,6 @@ body {
    background-image:
       linear-gradient(to left top, rgba(138, 238, 113, 0.8), rgba(73, 76, 214, 0.8)),
       url('https://www.dropbox.com/s/2z4coujl8zf9982/profile-photo1.png?raw=1');
-
    background-size: cover;
 
    width: 100%;
@@ -31,7 +37,7 @@ body {
 }
 
 
-.info {
+.left > .info {
    height: 100vh;
    display: flex;
    flex-direction: column;
@@ -39,15 +45,81 @@ body {
    padding-bottom: 10vh;
 }
 
-.name {
+.left > .left > .name {
    margin-bottom: 0;
 }
 
-.subtext {
+.left > .info > .subtext {
    margin-top: 0;
    margin-bottom: 40px;
 }
 
-.icon1 {
+.left > .info > .social-links > .icon1 {
    margin: 10px;
+}
+
+/*--------------RIGHT SIDE-------------------------------*/
+
+.right {
+   padding: 5vh;
+}
+
+.info-block {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 4em;
+}
+
+.info-title {
+   color: #2A54F5;
+   font-family: CatamaranBold, sans-serif;
+   margin-bottom: 0;
+}
+
+.project-name {
+   font-weight: 900;
+   color: black;
+}
+
+.project-description {
+   margin-top: 0;
+}
+
+.pdf-link {
+   text-align: center;
+   margin-top: 4rem;
+   text-decoration: none;
+}
+
+.pdf-link p {
+   color: #2A54F5;
+   background-color: whitesmoke;
+   padding: 15px 0px;
+   font-size: large;
+   font-weight: 700;
+}
+
+
+@media screen and (min-width: 900px) {
+   .app {
+      flex-direction: row;
+   }
+
+   .left {
+      position: fixed;
+      width: 50%;
+   }
+
+   .right {
+      margin-left: 50%;
+   }
+
+   .info-block {
+      flex-direction: row;
+   }
+
+   .info-title {
+      min-width: 8em;
+   }
+
 }
