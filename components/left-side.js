@@ -5,7 +5,7 @@ export default function LeftSide () {
       <div className='left'>
 
          <div className='info'>
-            <h2 className='name'>Hey, I am Mahesh</h2>
+            <h2 className='name'>Hey, I'm Mahesh</h2>
             <p className='subtext'>Web developer, based in Beed, Maharashtra.</p>
 
             <div className='social-links'>
