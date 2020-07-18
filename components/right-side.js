@@ -1,7 +1,7 @@
 import '../styles/right-side.css'
 
 export default function RightSide() {
-   return(
+   return (
       <div className='right'>
          <div className='info-block'>
             <h4 className='info-title'>INTRO</h4>
@@ -15,22 +15,28 @@ export default function RightSide() {
             <h4 className='info-title'>PROJECTS</h4>
             <div className='content'>
                <p>
+                  <a className='project-name' href='https://quick-json-api.now.sh' target='_blank'>
+                     Quick-JSON-API
+                  </a>
+                  Quick Create, Edit, Use(fetch on any website or server) and Delete your API
+               </p>
+               <p>
+                  <a className='project-name' href='https://techtube.now.sh/' target='_blank'>
+                     TechTube
+                  </a>
+                  Collection of best tech-videos using YouTube api. [Website in development]
+               </p>
+               <p>
                   <a className='project-name' href='https://crownclothing.now.sh/' target='_blank'>
-                  Crown-Clothing
+                     Crown-Clothing
                   </a>
                   My first project build while learning from a Udemy course on ReactJS
                </p>
                <p>
                   <a className='project-name' href='https://notebook007.now.sh/' target='_blank'>
-                  Notebook007
+                     Notebook007
                   </a>
                   A reference guide for a web-developer.
-               </p>
-               <p>
-                  <a className='project-name' href='https://techtube.now.sh/' target='_blank'>
-                  TechTube
-                  </a>
-                  Collection of best tech-videos using YouTube api. [Website in development]
                </p>
             </div>
 
@@ -66,8 +72,8 @@ export default function RightSide() {
          </div>
 
          <a className='pdf-link' href='https://www.dropbox.com/s/2d56l22t6q0pszk/Mahesh%20Resume.pdf?raw=1' target='_blank'>
-               <p>GRAB A PDF OF MY FULL RESUME</p>
-            </a>
+            <p>GRAB A PDF OF MY FULL RESUME</p>
+         </a>
 
       </div>
    )
