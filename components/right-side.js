@@ -45,16 +45,6 @@ export default function RightSide() {
 						My first project build while learning from a Udemy course on
 						ReactJS
 					</p>
-					<p>
-						<a
-							className='project-name'
-							href='https://notebook007.now.sh/'
-							target='_blank'
-						>
-							Notebook007
-						</a>
-						A reference guide for a web-developer.
-					</p>
 				</div>
 			</div>
 
@@ -96,7 +86,7 @@ export default function RightSide() {
 
 			<a
 				className='pdf-link'
-				href='https://www.dropbox.com/s/2d56l22t6q0pszk/Mahesh%20Resume.pdf?raw=1'
+				href='https://dl.dropbox.com/s/2d56l22t6q0pszk/Mahesh%20Resume.pdf'
 				target='_blank'
 			>
 				<p>GRAB A PDF OF MY FULL RESUME</p>
