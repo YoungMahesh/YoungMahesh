@@ -1,30 +1,33 @@
 .left {
-   color: whitesmoke;
-   background-image:
-      linear-gradient(to left top, rgba(56, 179, 103, 0.7), rgba(42, 84, 245, 0.7)),
-      url('/assets/Mahesh_Profile_Photo.png');
-   background-size: cover;
-   background-position: center;
+	color: whitesmoke;
+	background-image: linear-gradient(
+			to left top,
+			rgba(56, 179, 103, 0.7),
+			rgba(42, 84, 245, 0.7)
+		),
+		url('/assets/Mahesh_Profile_Photo.jpg');
+	background-size: cover;
+	background-position: center;
 
-   height: 100vh;
-   text-align: center;
+	height: 100vh;
+	text-align: center;
 }
 
 .info {
-   margin-top: 60vh;
+	margin-top: 60vh;
 }
 
 .subtext {
-   margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .icon1 {
-   margin: 10px;
+	margin: 10px;
 }
 
-@media screen and (min-width:900px) {
-   .left {
-      position: fixed;
-      width: 50%;
-   }
+@media screen and (min-width: 900px) {
+	.left {
+		position: fixed;
+		width: 50%;
+	}
 }
