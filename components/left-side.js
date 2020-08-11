@@ -1,7 +1,7 @@
 export default function LeftSide() {
 	return (
-		<div className='left'>
-			<div className='info'>
+		<article className='left'>
+			<section className='info'>
 				<h2 className='name'>Hey, I'm Mahesh</h2>
 				<p className='subtext'>
 					Web developer, based in Beed, Maharashtra.
@@ -49,7 +49,7 @@ export default function LeftSide() {
 						></i>
 					</a>
 				</div>
-			</div>
-		</div>
+			</section>
+		</article>
 	)
 }

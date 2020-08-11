@@ -8,15 +8,22 @@
 	margin-bottom: 2em;
 }
 
-.info-title {
+.info-block > .info-title {
 	color: #2a54f5;
-	margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 10px;
 }
 
-.project-name {
-	display: block;
-	font-weight: 900;
-	color: black;
+.info-block > .content > .content-block {
+	margin-bottom: 10px;
+}
+
+.content-block > h4 {
+	display: inline;
+}
+
+.content-block > p {
+	margin-top: 0;
 }
 
 .pdf-link {
@@ -25,7 +32,7 @@
 	text-decoration: none;
 }
 
-.pdf-link p {
+.pdf-link > p {
 	color: #2a54f5;
 	background-color: whitesmoke;
 	padding: 15px 0px;

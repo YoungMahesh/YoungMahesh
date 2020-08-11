@@ -14,7 +14,7 @@ export default function Home() {
 				<link rel='stylesheet' href='/styles/right-side.css' />
 				<link rel='stylesheet' href='/styles/font-awesome.css' />
 				<link
-					href='https://fonts.googleapis.com/css2?family=Catamaran&display=swap'
+					href='https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap'
 					rel='stylesheet'
 				/>
 			</Head>
