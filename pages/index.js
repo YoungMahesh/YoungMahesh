@@ -13,6 +13,10 @@ export default function Home() {
 				<link rel='stylesheet' href='/styles/left-side.css' />
 				<link rel='stylesheet' href='/styles/right-side.css' />
 				<link rel='stylesheet' href='/styles/font-awesome.css' />
+				<link
+					href='https://fonts.googleapis.com/css2?family=Catamaran&display=swap'
+					rel='stylesheet'
+				/>
 			</Head>
 
 			<LeftSide />

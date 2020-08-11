@@ -1,50 +1,47 @@
 .right {
-   padding: 5vh;
+	padding: 5vh;
 }
 
 .info-block {
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2em;
 }
 
 .info-title {
-   color: #2A54F5;
-   font-family: CatamaranBold, sans-serif;
-   margin-bottom: 0;
+	color: #2a54f5;
+	margin-bottom: 0;
 }
 
 .project-name {
-   display: block;
-   font-weight: 900;
-   color: black;
+	display: block;
+	font-weight: 900;
+	color: black;
 }
 
-
 .pdf-link {
-   text-align: center;
-   margin-top: 4rem;
-   text-decoration: none;
+	text-align: center;
+	margin-top: 4rem;
+	text-decoration: none;
 }
 
 .pdf-link p {
-   color: #2A54F5;
-   background-color: whitesmoke;
-   padding: 15px 0px;
-   font-size: large;
+	color: #2a54f5;
+	background-color: whitesmoke;
+	padding: 15px 0px;
+	font-size: large;
 }
 
-
 @media screen and (min-width: 900px) {
-   .right {
-      margin-left: 50%;
-   }
+	.right {
+		margin-left: 50%;
+	}
 
-   .info-block {
-      flex-direction: row;
-   }
+	.info-block {
+		flex-direction: row;
+	}
 
-   .info-title {
-      min-width: 8em;
-   }
+	.info-title {
+		min-width: 8em;
+	}
 }
