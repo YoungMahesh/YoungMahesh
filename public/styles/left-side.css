@@ -2,7 +2,7 @@
    color: whitesmoke;
    background-image:
       linear-gradient(to left top, rgba(56, 179, 103, 0.7), rgba(42, 84, 245, 0.7)),
-      url('https://www.dropbox.com/s/2z4coujl8zf9982/profile-photo1.png?raw=1');
+      url('/assets/Mahesh_Profile_Photo.png');
    background-size: cover;
    background-position: center;
 

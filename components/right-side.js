@@ -84,11 +84,7 @@ export default function RightSide() {
 				</div>
 			</div>
 
-			<a
-				className='pdf-link'
-				href='https://dl.dropbox.com/s/2d56l22t6q0pszk/Mahesh%20Resume.pdf'
-				target='_blank'
-			>
+			<a className='pdf-link' href='/assets/Mahesh_Resume.pdf' download>
 				<p>GRAB A PDF OF MY FULL RESUME</p>
 			</a>
 		</div>
