@@ -20,6 +20,7 @@ export default function RightSide() {
 								className='black'
 								href='https://quick-json-api.now.sh'
 								target='_blank'
+								rel='noopener'
 							>
 								Quick-JSON-API
 							</a>
@@ -36,6 +37,7 @@ export default function RightSide() {
 								className='black'
 								href='https://techtube.now.sh/'
 								target='_blank'
+								rel='noopener'
 							>
 								TechTube
 							</a>
@@ -52,6 +54,7 @@ export default function RightSide() {
 								className='black'
 								href='https://crownclothing.now.sh/'
 								target='_blank'
+								rel='noopener'
 							>
 								Crown-Clothing
 							</a>

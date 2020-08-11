@@ -1,0 +1,22 @@
+{
+	"short_name": "YoungMahesh",
+	"name": "YoungMahesh",
+	"description": "Mahesh Ghamand Profile",
+	"icons": [
+		{
+			"src": "/icons/Icon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icons/Icon512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#ffffff",
+	"display": "minimal-ui",
+	"scope": "/",
+	"theme_color": "#2a54f5"
+}

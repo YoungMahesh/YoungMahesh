@@ -12,6 +12,8 @@ export default function LeftSide() {
 						className='icon1'
 						href='https://twitter.com/MGhamand'
 						target='_blank'
+						rel='noopener'
+						// with "noopener" new page opens in a seperate process which comes under "Best-Practices" in Lighthouse-audit
 					>
 						<i
 							className='fab fa-twitter fa-lg'
@@ -22,6 +24,7 @@ export default function LeftSide() {
 						className='icon1'
 						href='https://github.com/YoungMahesh'
 						target='_blank'
+						rel='noopener'
 					>
 						<i
 							className='fab fa-github fa-lg'
@@ -32,6 +35,7 @@ export default function LeftSide() {
 						className='icon1'
 						href='https://www.linkedin.com/in/mahesh-ghamand-114a7b191/'
 						target='_blank'
+						rel='noopener'
 					>
 						<i
 							className='fab fa-linkedin-in fa-lg'
@@ -42,6 +46,7 @@ export default function LeftSide() {
 						className='icon1'
 						href='https://dev.to/youngmahesh'
 						target='_blank'
+						rel='noopener'
 					>
 						<i
 							className='fab fa-dev fa-2x'
