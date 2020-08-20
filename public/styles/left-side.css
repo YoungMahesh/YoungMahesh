@@ -29,6 +29,11 @@
 	margin: 10px;
 }
 
+.svg {
+	width: 25px;
+	height: 25px;
+}
+
 @media screen and (min-width: 900px) {
 	.left {
 		position: fixed;

@@ -15,10 +15,7 @@ export default function LeftSide() {
 						rel='noopener'
 						// with "noopener" new page opens in a seperate process which comes under "Best-Practices" in Lighthouse-audit
 					>
-						<i
-							className='fab fa-twitter fa-lg'
-							style={{ color: 'white' }}
-						></i>
+						<img className='svg' src='/svgs/twitter.svg' />
 					</a>
 					<a
 						className='icon1'
@@ -26,32 +23,35 @@ export default function LeftSide() {
 						target='_blank'
 						rel='noopener'
 					>
-						<i
-							className='fab fa-github fa-lg'
-							style={{ color: 'white' }}
-						></i>
+						<img className='svg' src='/svgs/github.svg' />
 					</a>
 					<a
 						className='icon1'
-						href='https://www.linkedin.com/in/mahesh-ghamand-114a7b191/'
+						href='https://www.linkedin.com/in/YoungMahesh'
 						target='_blank'
 						rel='noopener'
 					>
-						<i
-							className='fab fa-linkedin-in fa-lg'
-							style={{ color: 'white' }}
-						></i>
+						<img className='svg' src='/svgs/linkedin.svg' />
 					</a>
 					<a
 						className='icon1'
-						href='https://dev.to/youngmahesh'
+						href='https://dev.to/YoungMahesh'
 						target='_blank'
 						rel='noopener'
 					>
-						<i
-							className='fab fa-dev fa-2x'
-							style={{ color: 'white', fontSize: '1.7em' }}
-						></i>
+						<img className='svg' src='/svgs/dev-dot-to.svg' />
+					</a>
+					<a
+						className='icon1'
+						href='mailto:maheshghamand@gmail.com'
+						target='_blank'
+						rel='noopener'
+					>
+						<img
+							style={{ filter: 'invert(1)' }}
+							className='svg'
+							src='/svgs/mail.svg'
+						/>
 					</a>
 				</div>
 			</section>

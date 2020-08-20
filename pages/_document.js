@@ -22,10 +22,6 @@ export default class extends Document {
 					<link rel='manifest' href='/manifest.json' />
 					<link rel='shortcut icon' href='/icons/favicon.ico' />
 					<link
-						rel='stylesheet'
-						href='https://cdn.youngmahesh.now.sh/fontawesome-free-5.14.0-web/css/all.min.css'
-					/>
-					<link
 						href='https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap'
 						rel='stylesheet'
 					/>
