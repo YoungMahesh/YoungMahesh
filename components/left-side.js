@@ -10,7 +10,7 @@ export default function LeftSide() {
 				<div className='social-links'>
 					<a
 						className='icon1'
-						href='https://twitter.com/MGhamand'
+						href='https://twitter.com/YoungMahesh'
 						target='_blank'
 						rel='noopener'
 						// with "noopener" new page opens in a seperate process which comes under "Best-Practices" in Lighthouse-audit
