@@ -52,16 +52,47 @@ export default function RightSide() {
 						<h4>
 							<a
 								className='black'
-								href='https://crownclothing.now.sh/'
+								href='https://miniprojects.now.sh/'
 								target='_blank'
 								rel='noopener'
 							>
-								Crown-Clothing
+								MiniProjects
 							</a>
 						</h4>
 						<p>
-							My first project build while learning from a Udemy course
-							on ReactJS
+							Collection of short projects which includes - conversion of cloud storage sharing link to direct download link, text-encryption, Compound Interest Calculater
+						</p>
+					</div>
+
+					<div className='content-block'>
+						<h4>
+							<a
+								className='black'
+								href='https://sticky-note.now.sh/'
+								target='_blank'
+								rel='noopener'
+							>
+								Sticky Notes
+							</a>
+						</h4>
+						<p>
+							Quickly create/publish, edit, delete sticky notes on Internet, no need to Login
+						</p>
+					</div>
+
+					<div className='content-block'>
+						<h4>
+							<a
+								className='black'
+								href='https://telegraph.now.sh/'
+								target='_blank'
+								rel='noopener'
+							>
+								Telegraph
+							</a>
+						</h4>
+						<p>
+							Clone of famous 'telegr.ph', with additional functionality to delete post
 						</p>
 					</div>
 				</div>
@@ -118,7 +149,7 @@ export default function RightSide() {
 				</div>
 			</section>
 
-			<a className='pdf-link' href='/assets/Mahesh_Resume.pdf' download>
+			<a className='pdf-link' href='/assets/mahesh-resume.pdf' download>
 				<p>GRAB A PDF OF MY FULL RESUME</p>
 			</a>
 		</article>
