@@ -60,7 +60,23 @@ export default function RightSide() {
 							</a>
 						</h4>
 						<p>
-							Collection of short projects which includes - conversion of cloud storage sharing link to direct download link, text-encryption, Compound Interest Calculater
+							Convert cloud storage (Google drive, Onedrive, Dropbox, Github) sharing link to direct download link, Compound Interest Calculater
+						</p>
+					</div>
+
+					<div className='content-block'>
+						<h4>
+							<a
+								className='black'
+								href='https://miniprojects2.now.sh/'
+								target='_blank'
+								rel='noopener'
+							>
+								MiniProjects2
+							</a>
+						</h4>
+						<p>
+							Download Youtube-videos, Text-encryption-decryption
 						</p>
 					</div>
 
