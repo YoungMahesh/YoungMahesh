@@ -81,7 +81,7 @@ if (!self.define) {
     });
   };
 }
-define("./sw.js",['./workbox-b90066a8'], function (workbox) { 'use strict';
+define("./sw.js",['./workbox-e536220e'], function (workbox) { 'use strict';
 
   /**
   * Welcome to your Workbox-powered service worker!
@@ -106,16 +106,16 @@ define("./sw.js",['./workbox-b90066a8'], function (workbox) { 'use strict';
 
   workbox.precacheAndRoute([{
     "url": "/_next/static/runtime/amp.js",
-    "revision": "2402d9faa492321238c6fb742a20fb51"
+    "revision": "dba273ce1054195016b4cb4960558423"
   }, {
     "url": "/_next/static/runtime/amp.js.map",
-    "revision": "340448f78a90c6e7903b07bcb0c6956f"
+    "revision": "b119bddb386cdc6578831e073aeeedf5"
   }, {
     "url": "/_next/static/runtime/main.js",
-    "revision": "917fad9a33fe4636ba203bf1304cd816"
+    "revision": "ca2c4ee2b075d94941c6533dd02a1597"
   }, {
     "url": "/_next/static/runtime/main.js.map",
-    "revision": "d043c3ea073388b848fad67280dd3f6a"
+    "revision": "867da8d6661389851eb146257f811113"
   }, {
     "url": "/_next/static/runtime/polyfills.js",
     "revision": "cf6f4b12f4634f8f79378d41f3a855a4"
@@ -124,14 +124,18 @@ define("./sw.js",['./workbox-b90066a8'], function (workbox) { 'use strict';
     "revision": "82dca635a629d8ab38c3ad85b2ad65a2"
   }, {
     "url": "/_next/static/runtime/webpack.js",
-    "revision": "846880059e7d62799c8d9dc274829bbc"
+    "revision": "49a8cf9618e6d480be43fef6e7ff669a"
   }, {
     "url": "/_next/static/runtime/webpack.js.map",
-    "revision": "5e08b24249d7a60b91bf79a5b2bc7e74"
+    "revision": "9e0a449b1afeeda255a6a2709cd0ce14"
   }], {
     "ignoreURLParametersMatching": [/ts/]
   });
   workbox.cleanupOutdatedCaches();
+  workbox.registerRoute(/.*/i, new workbox.NetworkOnly({
+    "cacheName": "dev",
+    plugins: []
+  }), 'GET');
 
 });
 //# sourceMappingURL=sw.js.map
