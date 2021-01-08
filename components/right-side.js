@@ -5,8 +5,8 @@ export default function RightSide() {
 				<h3 className='info-title'>INTRO</h3>
 				<div className='content'>
 					<div className='content-block'>
-						<p>Recently completed my B.Com from KSK college, Beed.</p>
-						<p>I started web-development since last year.</p>
+						<p>Completed my B.Com from KSK college, Beed in May-2019.</p>
+						<p>I started web-development since Jan-2019.</p>
 					</div>
 				</div>
 			</section>
@@ -35,16 +35,47 @@ export default function RightSide() {
 						<h4>
 							<a
 								className='black'
-								href='https://techtube.now.sh/'
+								href='https://telegraph.now.sh/'
 								target='_blank'
 								rel='noopener'
 							>
-								TechTube
+								Telegraph
 							</a>
 						</h4>
 						<p>
-							Collection of best tech-videos using YouTube api. [Website
-							in development]
+							Clone of famous 'telegr.ph', with additional functionality to delete post
+						</p>
+					</div>
+
+					<div className='content-block'>
+						<h4>
+							<a
+								className='black'
+								href='https://in.now.sh/'
+								target='_blank'
+								rel='noopener'
+							>
+								IN (URL-shortner)
+							</a>
+						</h4>
+						<p>
+							Shorten URLs to your own custom-url starting with "in.now.sh/"
+						</p>
+					</div>
+
+					<div className='content-block'>
+						<h4>
+							<a
+								className='black'
+								href='https://crypt0.now.sh/'
+								target='_blank'
+								rel='noopener'
+							>
+								Crypt0
+							</a>
+						</h4>
+						<p>
+							Encrypt and Decrypt text with your own password
 						</p>
 					</div>
 
@@ -68,23 +99,7 @@ export default function RightSide() {
 						<h4>
 							<a
 								className='black'
-								href='https://miniprojects2.now.sh/'
-								target='_blank'
-								rel='noopener'
-							>
-								MiniProjects2
-							</a>
-						</h4>
-						<p>
-							Download Youtube-videos, Text-encryption-decryption
-						</p>
-					</div>
-
-					<div className='content-block'>
-						<h4>
-							<a
-								className='black'
-								href='https://sticky-note.now.sh/'
+								href='https://keep0.now.sh/'
 								target='_blank'
 								rel='noopener'
 							>
@@ -100,17 +115,19 @@ export default function RightSide() {
 						<h4>
 							<a
 								className='black'
-								href='https://telegraph.now.sh/'
+								href='https://techtube.now.sh/'
 								target='_blank'
 								rel='noopener'
 							>
-								Telegraph
+								TechTube
 							</a>
 						</h4>
 						<p>
-							Clone of famous 'telegr.ph', with additional functionality to delete post
+							Collection of best tech-videos using YouTube api. [Website
+							in development]
 						</p>
 					</div>
+
 				</div>
 			</section>
 
@@ -120,20 +137,20 @@ export default function RightSide() {
 					<div className='content-block'>
 						<h4>Languages: </h4>
 						<span>
-							JavaScript (ES6), TypeScript, HTML5, CSS3, C++17, Python3
+							JavaScript (ES6), TypeScript, HTML5, CSS3, C++14, Python3
 						</span>
 					</div>
 
 					<div className='content-block'>
 						<h4>Libraries & Frameworks: </h4>
 						<span>
-							Node, React, NextJS, GatsbyJS, Firebase, MongoDB, Express
+							Node, React, NextJS, Firebase, Express
 						</span>
 					</div>
 
 					<div className='content-block'>
 						<h4>Tools: </h4>
-						<span>Git & Github, Bash, GIMP, Figma</span>
+						<span>Git & Github, Bash, cURL</span>
 					</div>
 				</div>
 			</section>
