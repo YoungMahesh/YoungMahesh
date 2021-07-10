@@ -137,20 +137,20 @@ export default function RightSide() {
 					<div className='content-block'>
 						<h4>Languages: </h4>
 						<span>
-							JavaScript (ES6), TypeScript, HTML5, CSS3, C++14, Python3
+							JavaScript (ES6), HTML5, CSS3, Python3
 						</span>
 					</div>
 
 					<div className='content-block'>
 						<h4>Libraries & Frameworks: </h4>
 						<span>
-							Node, React, NextJS, Firebase, Express
+							Node, React, Express
 						</span>
 					</div>
 
 					<div className='content-block'>
 						<h4>Tools: </h4>
-						<span>Git & Github, Bash, cURL</span>
+						<span>Git, Github, Bash, cURL</span>
 					</div>
 				</div>
 			</section>
