@@ -99,7 +99,7 @@ export default function RightSide() {
         </div>
       </section>
 
-      <a className="pdf-link" href="/assets/mahesh-resume.pdf" download>
+      <a className="pdf-link" href="https://filedn.com/lKynGAEFLyJzDVbxA8PDmdk/Mahesh%20Resume.pdf" download>
         <p>GRAB A PDF OF MY FULL RESUME</p>
       </a>
     </article>
