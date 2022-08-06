@@ -1,0 +1,56 @@
+.right {
+	padding: 5vh;
+}
+
+.info-block {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2em;
+}
+
+.info-block > .info-title {
+	color: #2a54f5;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.info-block > .content > .content-block {
+	margin-bottom: 10px;
+}
+
+.content-block > h4 {
+	display: inline;
+}
+
+.content-block > p {
+	margin-top: 0;
+}
+
+.pdf-link {
+	text-align: center;
+	margin-top: 4rem;
+	text-decoration: none;
+}
+
+.pdf-link > p {
+	color: #2a54f5;
+	background-color: whitesmoke;
+	padding: 15px 0px;
+	font-size: large;
+
+	cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+	.right {
+		margin-left: 50%;
+	}
+
+	.info-block {
+		flex-direction: row;
+	}
+
+	.info-title {
+		min-width: 8em;
+	}
+}
