@@ -7,8 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "format": "npx prettier --write components/ pages/",
+    "git1": "git add ."
   },
+  "pre-commit": [
+    "format",
+    "build",
+    "git1"
+  ],
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -25,8 +31,8 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.2",
-    "husky": "^8.0.0",
-    "prettier": "2.7.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.7.1",
     "pretty-quick": "^3.1.3",
     "typescript": "4.7.4"
   }
