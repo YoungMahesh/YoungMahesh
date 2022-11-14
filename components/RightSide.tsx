@@ -7,8 +7,8 @@ export default function RightSide() {
         <h3 className="info-title">INTRO</h3>
         <div className="content">
           <div className="content-block">
-            <p>Completed my B.Com from KSK college, Beed in May-2019.</p>
-            <p>I started web-development since Jan-2019.</p>
+            <p>Learning Web-developent since Jan-2019</p>
+            <p>Working as full-stack web3 developer since July-2021</p>
           </div>
         </div>
       </section>
@@ -17,8 +17,13 @@ export default function RightSide() {
         <h3 className="info-title">PROJECTS</h3>
         <div className="content">
           <ProjectBox
+            name="Timer"
+            link="https://timer0.vercel.app/"
+            description="A full-stack app to create Time-based targets and track your progress in real-time"
+          />
+          <ProjectBox
             name="Blockchain Tools"
-            link="https://blockchaintools.app/"
+            link="https://blockchaintools.vercel.app/"
             description="Few blockchain related apps such as multisender, locker, erc20-generator written in solidity"
           />
           <ProjectBox
@@ -57,17 +62,22 @@ export default function RightSide() {
         <div className="content">
           <div className="content-block">
             <h4>Languages: </h4>
-            <span>JavaScript (ES6), Typescript, HTML5, CSS3, Solidity</span>
+            <span>
+              JavaScript (ES6), Typescript, HTML5, CSS3, Solidity, Rust for
+              Solana
+            </span>
           </div>
 
           <div className="content-block">
             <h4>Libraries & Frameworks: </h4>
-            <span>NodeJS, NextJS, Hardhat</span>
+            <span>
+              NodeJS, NextJS, Hardhat, Anchor for Solana, Tailwind, Prisma
+            </span>
           </div>
 
           <div className="content-block">
             <h4>Tools: </h4>
-            <span>Git, Github, Bash, cURL</span>
+            <span>Git, Bash, VS Code</span>
           </div>
         </div>
       </section>
@@ -99,7 +109,11 @@ export default function RightSide() {
         </div>
       </section>
 
-      <a className="pdf-link" href="https://filedn.com/lKynGAEFLyJzDVbxA8PDmdk/Mahesh%20Resume.pdf" download>
+      <a
+        className="pdf-link"
+        href="https://filedn.com/lKynGAEFLyJzDVbxA8PDmdk/mahesh_resume.pdf"
+        download
+      >
         <p>GRAB A PDF OF MY FULL RESUME</p>
       </a>
     </article>
