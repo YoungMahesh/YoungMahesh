@@ -22,15 +22,15 @@ export default function RightSide() {
             description="A full-stack app to create Time-based targets and track your progress in real-time"
           />
           <ProjectBox
-            name="Blockchain Tools"
-            link="https://blockchaintools.vercel.app/"
-            description="Few blockchain related apps such as multisender, locker, erc20-generator written in solidity"
+            name="Tools"
+            link="https://tools0.vercel.app/"
+            description="A collection of various utilities which includes text-encryption,web3-wallet generatoration, 
+                FD Calculator, Loan Calculator, etc"
           />
           <ProjectBox
-            name="Quick-JSON-API"
-            link="https://quick-json-api.now.sh"
-            description="Quick Create, Edit, Use(fetch on any website or server) and
-							Delete your API"
+            name="IN (URL-shortner)"
+            link="https://in.now.sh/"
+            description='Shorten URLs to your own custom-url starting with "in.now.sh/"'
           />
           <ProjectBox
             name="Telegraph"
@@ -39,14 +39,10 @@ export default function RightSide() {
               delete post"
           />
           <ProjectBox
-            name="IN (URL-shortner)"
-            link="https://in.now.sh/"
-            description='Shorten URLs to your own custom-url starting with "in.now.sh/"'
-          />
-          <ProjectBox
-            name="Crypt0"
-            link="https://crypt0.now.sh/"
-            description="Encrypt and Decrypt text with your own password"
+            name="Quick-JSON-API"
+            link="https://quick-json-api.now.sh"
+            description="Quick Create, Edit, Use(fetch on any website or server) and
+							Delete your API"
           />
           <ProjectBox
             name="Sticky Notes"
