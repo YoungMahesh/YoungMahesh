@@ -7,9 +7,19 @@ export default function RightSide() {
         <h3 className="info-title">INTRO</h3>
         <div className="content">
           <div className="content-block">
-            <p>Learning Web-developent since Jan-2019</p>
-            <p>Working as full-stack web3 developer since July-2021</p>
+            <p>Working as Web-developer since Jan-2019</p>
           </div>
+        </div>
+      </section>
+
+      <section className="info-block">
+        <h3 className="info-title">EXPERIENCE</h3>
+        <div className="content">
+          <ProjectBox
+            name="Web3werx"
+            link="https://web3werx.com/"
+            description="Working as a full-stack web3 developer since July-2021"
+          />
         </div>
       </section>
 
@@ -17,9 +27,14 @@ export default function RightSide() {
         <h3 className="info-title">PROJECTS</h3>
         <div className="content">
           <ProjectBox
-            name="Timer"
-            link="https://timer0.vercel.app/"
+            name="Timers"
+            link="https://timers0.vercel.app/"
             description="A full-stack app to create Time-based targets and track your progress in real-time"
+          />
+          <ProjectBox
+            name="Notes"
+            link="https://notes0.vercel.app/"
+            description="Save your notes in a simple, open-source, ad-free project."
           />
           <ProjectBox
             name="Tools"
@@ -29,24 +44,18 @@ export default function RightSide() {
           />
           <ProjectBox
             name="IN (URL-shortner)"
-            link="https://in.now.sh/"
-            description='Shorten URLs to your own custom-url starting with "in.now.sh/"'
+            link="https://in.vercel.app/"
+            description='Shorten URLs to your own custom-url starting with "in.vercel.app/"'
           />
           <ProjectBox
             name="Telegraph"
-            link="https://telegraph.now.sh/"
+            link="https://telegraph.vercel.app/"
             description="Clone of famous 'telegr.ph', with additional functionality to
               delete post"
           />
           <ProjectBox
-            name="Quick-JSON-API"
-            link="https://quick-json-api.now.sh"
-            description="Quick Create, Edit, Use(fetch on any website or server) and
-							Delete your API"
-          />
-          <ProjectBox
             name="Sticky Notes"
-            link="https://keep0.now.sh/"
+            link="https://keep0.vercel.app/"
             description="Quickly create/publish, edit, delete sticky notes on Internet, no
               need to Login"
           />
@@ -108,6 +117,8 @@ export default function RightSide() {
       <a
         className="pdf-link"
         href="https://filedn.com/lKynGAEFLyJzDVbxA8PDmdk/mahesh_resume.pdf"
+        target="_blank"
+        rel="noreferrer"
         download
       >
         <p>GRAB A PDF OF MY FULL RESUME</p>
