@@ -1,8 +1,15 @@
+import Image from 'next/image'
+import GithubIcon from '../public/svgs/github.svg'
+import LinkedInIcon from '../public/svgs/linkedin.svg'
+import DevToIcon from '../public/svgs/dev-to.svg'
+import StackOverflowIcon from '../public/svgs/stack-overflow.svg'
+import MailIcon from '../public/svgs/mail.svg'
+
 export default function LeftSide() {
   return (
     <div className="left">
       <section className="info">
-        <h2 className="name">Hey, I'm Mahesh</h2>
+        <h2 className="name">Hey, I&apos;m Mahesh</h2>
         <p className="subtext">Web developer, based in Beed, Maharashtra.</p>
 
         <div className="social-links">
@@ -10,44 +17,49 @@ export default function LeftSide() {
             className="icon1"
             href="https://github.com/YoungMahesh"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
-            <img className="svg" src="/svgs/github.svg" />
+            <Image className="svg" src={GithubIcon} alt="Github" />
           </a>
           <a
             className="icon1"
             href="https://www.linkedin.com/in/YoungMahesh"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
-            <img className="svg" src="/svgs/linkedin.svg" />
+            <Image className="svg" src={LinkedInIcon} alt="LinkedIn" />
           </a>
           <a
             className="icon1"
             href="https://dev.to/YoungMahesh"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
-            <img className="svg" src="/svgs/dev-dot-to.svg" />
+            <Image className="svg" src={DevToIcon} alt="Dev.to" />
           </a>
           <a
             className="icon1"
             href="https://stackoverflow.com/users/12344647"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
-            <img className="svg" src="/svgs/stack-overflow.svg" />
+            <Image
+              className="svg"
+              src={StackOverflowIcon}
+              alt="stack-overflow"
+            />
           </a>
           <a
             className="icon1"
             href="mailto:maheshghamand@gmail.com"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
-            <img
+            <Image
               style={{ filter: 'invert(1)' }}
               className="svg"
-              src="/svgs/mail.svg"
+              src={MailIcon}
+              alt="Mail"
             />
           </a>
         </div>

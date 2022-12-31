@@ -10,7 +10,7 @@ export default function ProjectBox({
   return (
     <div className="content-block">
       <h4>
-        <a className="black" href={link} target="_blank" rel="noopener">
+        <a className="black" href={link} target="_blank" rel="noreferrer">
           {name}
         </a>
       </h4>
