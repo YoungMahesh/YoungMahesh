@@ -27,11 +27,6 @@ export default function RightSide() {
         <h3 className="info-title">PROJECTS</h3>
         <div className="content">
           <ProjectBox
-            name="Timers"
-            link="https://timers0.vercel.app/"
-            description="A full-stack app to create Time-based targets and track your progress in real-time"
-          />
-          <ProjectBox
             name="Notes"
             link="https://notes0.vercel.app/"
             description="Save your notes in a simple, open-source, ad-free project."
