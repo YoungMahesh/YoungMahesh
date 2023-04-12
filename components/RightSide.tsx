@@ -7,7 +7,7 @@ export default function RightSide() {
         <h3 className="info-title">INTRO</h3>
         <div className="content">
           <div className="content-block">
-            <p>Working as Web-developer since Jan-2019</p>
+            <p>Working as a Full-stack freelance Web-developer</p>
           </div>
         </div>
       </section>
@@ -18,7 +18,7 @@ export default function RightSide() {
           <ProjectBox
             name="Web3werx"
             link="https://web3werx.com/"
-            description="Working as a full-stack web3 developer since July-2021"
+            description="Working as a full-stack web3 developer in freelance agency named Web3Werx"
           />
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function RightSide() {
           />
           <ProjectBox
             name="Notes"
-            link="https://notes0.vercel.app/"
+            link="https://notes.mogali.in/"
             description="Save your notes in a simple, open-source, ad-free project."
           />
           <ProjectBox
@@ -44,18 +44,18 @@ export default function RightSide() {
           />
           <ProjectBox
             name="IN (URL-shortner)"
-            link="https://in.vercel.app/"
-            description='Shorten URLs to your own custom-url starting with "in.vercel.app/"'
+            link="https://sh.mogali.in"
+            description='Shorten URLs to your own custom-url starting with "sh.mogali.in" or "in.vercel.app"'
           />
           <ProjectBox
             name="Telegraph"
-            link="https://telegraph.vercel.app/"
+            link="http://telegraph.mogali.in/"
             description="Clone of famous 'telegr.ph', with additional functionality to
               delete post"
           />
           <ProjectBox
             name="Sticky Notes"
-            link="https://keep0.vercel.app/"
+            link="https://sticky.mogali.in/"
             description="Quickly create/publish, edit, delete sticky notes on Internet, no
               need to Login"
           />
@@ -68,7 +68,8 @@ export default function RightSide() {
           <div className="content-block">
             <h4>Proficient: </h4>
             <span>
-              JavaScript (ES6), Typescript, HTML5, CSS3, Tailwind NextJS, Git
+              JavaScript (ES6), Typescript, HTML5, CSS3, TailwindCSS, NextJS,
+              Git
             </span>
           </div>
 
