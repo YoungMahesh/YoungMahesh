@@ -27,13 +27,18 @@ export default function RightSide() {
         <h3 className="info-title">PROJECTS</h3>
         <div className="content">
           <ProjectBox
+            name="Timers"
+            link="https://timers.mogali.in/"
+            description="Save your notes in a simple, open-source, ad-free project."
+          />
+          <ProjectBox
             name="Notes"
             link="https://notes0.vercel.app/"
             description="Save your notes in a simple, open-source, ad-free project."
           />
           <ProjectBox
             name="Tools"
-            link="https://tools0.vercel.app/"
+            link="https://tools.mogali.in/"
             description="A collection of various utilities which includes text-encryption,web3-wallet generatoration, 
                 FD Calculator, Loan Calculator, etc"
           />
@@ -61,23 +66,18 @@ export default function RightSide() {
         <h3 className="info-title">SKILLS</h3>
         <div className="content">
           <div className="content-block">
-            <h4>Languages: </h4>
+            <h4>Proficient: </h4>
             <span>
-              JavaScript (ES6), Typescript, HTML5, CSS3, Solidity, Rust for
-              Solana
+              JavaScript (ES6), Typescript, HTML5, CSS3, Tailwind NextJS, Git
             </span>
           </div>
 
           <div className="content-block">
-            <h4>Libraries & Frameworks: </h4>
+            <h4>Familiar: </h4>
             <span>
-              NodeJS, NextJS, Hardhat, Anchor for Solana, Tailwind, Prisma
+              NodeJS, TRPC, Solidity, Hardhat, Rust for Solana, Anchor for
+              Solana, Prisma, Bash
             </span>
-          </div>
-
-          <div className="content-block">
-            <h4>Tools: </h4>
-            <span>Git, Bash, VS Code</span>
           </div>
         </div>
       </section>
