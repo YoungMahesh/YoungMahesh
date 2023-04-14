@@ -1,13 +1,40 @@
 import ProjectBox from './ProjectBox'
 
+const TECH_STACK = {
+  POSTGRESQL: 'Postgresql',
+  TAILWIND: 'TailwindCSS',
+  NEXTJS: 'NextJS',
+  NEXT_AUTH: 'NextAuth',
+  CLERK_AUTH: 'ClerkAuth',
+  TRPC: 'TRPC',
+  METAMASK: 'Metamask',
+  PRISMA: 'PrismaORM',
+  FAUNA: 'FaunaDB',
+  MUI: 'MUI',
+  FIREBASE: 'Firebase',
+}
+
 export default function RightSide() {
+  const {
+    POSTGRESQL,
+    TAILWIND,
+    NEXTJS,
+    NEXT_AUTH,
+    CLERK_AUTH,
+    TRPC,
+    METAMASK,
+    PRISMA,
+    FAUNA,
+    MUI,
+    FIREBASE,
+  } = TECH_STACK
   return (
     <article className="right">
       <section className="info-block">
         <h3 className="info-title">INTRO</h3>
         <div className="content">
           <div className="content-block">
-            <p>Working as a Full-stack freelance Web-developer</p>
+            <p>Working as a Full-stack Freelance Web-developer</p>
           </div>
         </div>
       </section>
@@ -30,34 +57,40 @@ export default function RightSide() {
             name="Timers"
             link="https://timers.mogali.in/"
             description="Save your notes in a simple, open-source, ad-free project."
+            stack={[NEXTJS, NEXT_AUTH, TAILWIND, POSTGRESQL, TRPC, PRISMA]}
           />
           <ProjectBox
             name="Notes"
             link="https://notes.mogali.in/"
             description="Save your notes in a simple, open-source, ad-free project."
+            stack={[NEXTJS, CLERK_AUTH, TAILWIND, POSTGRESQL, TRPC, PRISMA]}
           />
           <ProjectBox
             name="Tools"
             link="https://tools.mogali.in/"
             description="A collection of various utilities which includes text-encryption,web3-wallet generatoration, 
                 FD Calculator, Loan Calculator, etc"
+            stack={[NEXTJS, TAILWIND, METAMASK]}
           />
           <ProjectBox
             name="IN (URL-shortner)"
             link="https://sh.mogali.in"
             description='Shorten URLs to your own custom-url starting with "sh.mogali.in" or "in.vercel.app"'
+            stack={[NEXTJS, POSTGRESQL, PRISMA]}
           />
           <ProjectBox
             name="Telegraph"
             link="http://telegraph.mogali.in/"
             description="Clone of famous 'telegr.ph', with additional functionality to
               delete post"
+            stack={[NEXTJS, FAUNA, MUI]}
           />
           <ProjectBox
             name="Sticky Notes"
             link="https://sticky.mogali.in/"
             description="Quickly create/publish, edit, delete sticky notes on Internet, no
               need to Login"
+            stack={[NEXTJS, FIREBASE]}
           />
         </div>
       </section>
@@ -87,25 +120,10 @@ export default function RightSide() {
         <h3 className="info-title">EDUCATION</h3>
         <div className="content">
           <div className="content-block">
-            <h4>University: </h4>
-            <span>Yashwantrao Chavan Open University</span>
-          </div>
-
-          <div className="content-block">
-            <h4>College: </h4>
-            <span>
-              <em>KSK college, Beed</em>
-            </span>
-          </div>
-
-          <div className="content-block">
-            <h4>Course: </h4>
-            <span>Bachelor of Commerce</span>
-          </div>
-
-          <div className="content-block">
-            <h4>Duration: </h4>
-            <span>May 2016 - May 2019</span>
+            <p>
+              Bachelor of Commerce (May 2016 - May 2019), KSK college,
+              Yashwantrao Chavan Open University, Beed
+            </p>
           </div>
         </div>
       </section>
@@ -117,7 +135,7 @@ export default function RightSide() {
         rel="noreferrer"
         download
       >
-        <p>GRAB A PDF OF MY FULL RESUME</p>
+        <p>RÉSUMÉ</p>
       </a>
     </article>
   )

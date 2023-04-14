@@ -18,12 +18,16 @@
 	margin-bottom: 10px;
 }
 
+.mb-10 {
+	margin-bottom: 10px;
+}
+
 .content-block > h4 {
 	display: inline;
 }
 
 .content-block > p {
-	margin-top: 0;
+	margin: 0;
 }
 
 .pdf-link {
