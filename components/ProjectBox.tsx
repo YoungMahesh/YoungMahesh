@@ -16,23 +16,27 @@ export default function ProjectBox({
 }) {
   return (
     <div className="content-block">
-      <h4>
-        <a className="black" href={link} target="_blank" rel="noreferrer">
-          {name}
-        </a>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <h4 style={{ margin: 0 }}>
+          <a className="black" href={link} target="_blank" rel="noreferrer">
+            {name}
+          </a>
+        </h4>
+        &nbsp; &nbsp;
         {github ? (
           <a
-            className="icon1"
-            href="https://github.com/YoungMahesh"
+            style={{ textDecoration: 'underline' }}
+            className="black"
+            href={github}
             target="_blank"
             rel="noreferrer"
           >
-            <Image className="svg" src={GithubIcon} alt="Github" />
+            Github
           </a>
         ) : (
           <></>
         )}
-      </h4>
+      </div>
       <p>{description}</p>
       {stack ? (
         <p>

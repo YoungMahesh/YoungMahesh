@@ -34,7 +34,9 @@ export default function RightSide() {
         <h3 className="info-title">INTRO</h3>
         <div className="content">
           <div className="content-block">
-            <p>Working as a Full-stack Freelance Web-developer</p>
+            <p>
+              Working as a Full-stack Freelance Web-developer since July-2021
+            </p>
           </div>
         </div>
       </section>
@@ -58,12 +60,14 @@ export default function RightSide() {
             link="https://timers.mogali.in/"
             description="Save your notes in a simple, open-source, ad-free project."
             stack={[NEXTJS, NEXT_AUTH, TAILWIND, POSTGRESQL, TRPC, PRISMA]}
+            github="https://github.com/YoungMahesh/timers"
           />
           <ProjectBox
             name="Notes"
             link="https://notes.mogali.in/"
             description="Save your notes in a simple, open-source, ad-free project."
             stack={[NEXTJS, CLERK_AUTH, TAILWIND, POSTGRESQL, TRPC, PRISMA]}
+            github="https://github.com/YoungMahesh/notes"
           />
           <ProjectBox
             name="Tools"
@@ -71,12 +75,14 @@ export default function RightSide() {
             description="A collection of various utilities which includes text-encryption,web3-wallet generatoration, 
                 FD Calculator, Loan Calculator, etc"
             stack={[NEXTJS, TAILWIND, METAMASK]}
+            github="https://github.com/YoungMahesh/tools"
           />
           <ProjectBox
             name="IN (URL-shortner)"
             link="https://sh.mogali.in"
             description='Shorten URLs to your own custom-url starting with "sh.mogali.in" or "in.vercel.app"'
             stack={[NEXTJS, POSTGRESQL, PRISMA]}
+            github="https://github.com/YoungMahesh/short"
           />
           <ProjectBox
             name="Telegraph"
@@ -84,6 +90,7 @@ export default function RightSide() {
             description="Clone of famous 'telegr.ph', with additional functionality to
               delete post"
             stack={[NEXTJS, FAUNA, MUI]}
+            github="https://github.com/YoungMahesh/telegraph"
           />
           <ProjectBox
             name="Sticky Notes"
@@ -91,6 +98,7 @@ export default function RightSide() {
             description="Quickly create/publish, edit, delete sticky notes on Internet, no
               need to Login"
             stack={[NEXTJS, FIREBASE]}
+            github="https://github.com/YoungMahesh/sticky-notes"
           />
         </div>
       </section>
@@ -101,8 +109,8 @@ export default function RightSide() {
           <div className="content-block">
             <h4>Proficient: </h4>
             <span>
-              JavaScript (ES6), Typescript, HTML5, CSS3, TailwindCSS, NextJS,
-              Git
+              HTML, CSS, JavaScript (ES6), Typescript, TailwindCSS, ReactJS,
+              NextJS, Git
             </span>
           </div>
 
