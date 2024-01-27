@@ -35,22 +35,22 @@ export default function RightSide() {
         <div className="content">
           <div className="content-block">
             <p>
-              Working as a Full-stack Freelance Web-developer since July-2021
+              Working as a Full-stack Web-developer, Web3-developer, Golang
+              developer.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="info-block">
+      {/* <section className="info-block">
         <h3 className="info-title">EXPERIENCE</h3>
         <div className="content">
           <ProjectBox
-            name="Web3werx"
-            link="https://web3werx.com/"
-            description="Working as a full-stack web3 developer in freelance agency named Web3Werx"
+            name="Freelancing"
+            description="Working as a full-stack developer. Currently inclined towards learning Golang."
           />
         </div>
-      </section>
+      </section> */}
 
       <section className="info-block">
         <h3 className="info-title">PROJECTS</h3>
@@ -109,17 +109,14 @@ export default function RightSide() {
           <div className="content-block">
             <h4>Proficient: </h4>
             <span>
-              HTML, CSS, JavaScript (ES6), Typescript, TailwindCSS, ReactJS,
-              NextJS, Git
+              Javascript, Typescript, Solidity, TailwindCSS, ReactJS, NextJS,
+              NodeJS
             </span>
           </div>
 
           <div className="content-block">
             <h4>Familiar: </h4>
-            <span>
-              NodeJS, TRPC, Solidity, Hardhat, Rust for Solana, Anchor for
-              Solana, Prisma, Bash
-            </span>
+            <span>Golang, TRPC, PrismaORM, Git, Hardhat, Bash</span>
           </div>
         </div>
       </section>

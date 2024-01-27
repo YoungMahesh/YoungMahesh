@@ -4,7 +4,7 @@ import LinkedInIcon from '../public/svgs/linkedin.svg'
 import DevToIcon from '../public/svgs/dev-to.svg'
 import StackOverflowIcon from '../public/svgs/stack-overflow.svg'
 import MailIcon from '../public/svgs/mail.svg'
-import TwitterIcon from '../public/svgs/twitter.svg'
+// import TwitterIcon from '../public/svgs/twitter.svg'
 
 export default function LeftSide() {
   return (
@@ -30,14 +30,14 @@ export default function LeftSide() {
           >
             <Image className="svg" src={LinkedInIcon} alt="LinkedIn" />
           </a>
-          <a
+          {/* <a
             className="icon1"
             href="https://twitter.com/mahesh_0411"
             target="_blank"
             rel="noreferrer"
           >
             <Image className="svg" src={TwitterIcon} alt="Twitter" />
-          </a>
+          </a> */}
           <a
             className="icon1"
             href="mailto:maheshghamand@gmail.com"

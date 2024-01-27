@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import GithubIcon from '../public/svgs/github.svg'
-
 export default function ProjectBox({
   name,
   link,
@@ -9,7 +6,7 @@ export default function ProjectBox({
   github,
 }: {
   name: string
-  link: string
+  link?: string
   description: string
   stack?: string[]
   github?: string
@@ -18,9 +15,13 @@ export default function ProjectBox({
     <div className="content-block">
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <h4 style={{ margin: 0 }}>
-          <a className="black" href={link} target="_blank" rel="noreferrer">
-            {name}
-          </a>
+          {link ? (
+            <a className="black" href={link} target="_blank" rel="noreferrer">
+              {name}
+            </a>
+          ) : (
+            name
+          )}
         </h4>
         &nbsp; &nbsp;
         {github ? (
