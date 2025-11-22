@@ -1,0 +1,42 @@
+.left {
+	color: whitesmoke;
+	background-image: linear-gradient(
+			to left top,
+			rgba(56, 179, 103, 0.7),
+			rgba(42, 84, 245, 0.7)
+		),
+		url('/assets/Mahesh_Profile_Photo.jpg');
+	background-size: cover;
+	background-position: center;
+
+	height: 100vh;
+	text-align: center;
+}
+
+.name {
+	font-weight: 400;
+}
+
+.info {
+	margin-top: 60vh;
+}
+
+.subtext {
+	margin-bottom: 40px;
+}
+
+.icon1 {
+	margin: 10px;
+}
+
+.svg {
+	width: 25px;
+	height: 25px;
+}
+
+@media screen and (min-width: 900px) {
+	.left {
+		position: fixed;
+		width: 50%;
+	}
+}

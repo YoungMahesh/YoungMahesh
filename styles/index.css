@@ -1,0 +1,22 @@
+body {
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	margin: 0;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.black {
+	color: black;
+}
+
+.app {
+	/* Still, don't know why without these setting there is blank space on top, when during mobile-view */
+	display: flex;
+	flex-direction: column;
+}
+
