@@ -36,3 +36,8 @@ _Avoid_: Feature, spec, bullet point
 A domain-grouped taxonomy of technical competencies emphasizing systems engineering and data infrastructure depth.
 _Avoid_: Skill list, proficiency bucket
 
+**Profile Portrait**:
+A high-fidelity editorial photograph of the engineer presented in the digital Hero view, strictly excluded from the Print View to preserve automated ATS compatibility.
+_Avoid_: Avatar, headshot, selfie, picture, mugshot
+
+

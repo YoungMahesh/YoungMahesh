@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -13,14 +14,31 @@ export function Hero() {
               <span>Software Engineer • Backend &amp; Cloud Infrastructure</span>
             </div>
 
-            {/* Main Display Headline */}
-            <div className="space-y-2">
-              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-[1.08] tracking-tight text-ink">
-                Mahesh Ghamand
-              </h1>
-              <p className="font-serif text-2xl sm:text-3xl font-normal text-muted tracking-tight">
-                Architecting distributed storage gateways, Git transport internals, and streaming data pipelines.
-              </p>
+            {/* Profile Portrait & Headline Block */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-7">
+              {/* Profile Portrait (Editorial Squircle, strictly excluded from ATS Print View) */}
+              <div className="relative shrink-0 no-print group">
+                <div className="relative h-32 w-26 sm:h-36 sm:w-28 md:h-40 md:w-32 overflow-hidden rounded-2xl border border-hairline bg-surface-card shadow-xs transition-all duration-300 group-hover:scale-[1.02] group-hover:shadow-md group-hover:border-primary/40">
+                  <Image
+                    src="/profile-portrait.jpg"
+                    alt="Mahesh Ghamand - Profile Portrait"
+                    fill
+                    sizes="(max-width: 640px) 104px, (max-width: 768px) 112px, 128px"
+                    priority
+                    className="object-cover object-top"
+                  />
+                </div>
+              </div>
+
+              {/* Main Display Headline */}
+              <div className="space-y-2">
+                <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-[1.08] tracking-tight text-ink">
+                  Mahesh Ghamand
+                </h1>
+                <p className="font-serif text-2xl sm:text-3xl font-normal text-muted tracking-tight">
+                  Architecting distributed storage gateways, Git transport internals, and streaming data pipelines.
+                </p>
+              </div>
             </div>
 
             {/* Narrative Description */}
