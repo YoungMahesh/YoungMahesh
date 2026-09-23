@@ -40,4 +40,6 @@ _Avoid_: Skill list, proficiency bucket
 A high-fidelity editorial photograph of the engineer presented in the digital Hero view, strictly excluded from the Print View to preserve automated ATS compatibility.
 _Avoid_: Avatar, headshot, selfie, picture, mugshot
 
-
+**Profile README**:
+The root Markdown document for the special `YoungMahesh/YoungMahesh` repository rendered publicly on Mahesh's GitHub profile, synthesizing systems engineering positioning, Flagship Projects, and Skill Clusters.
+_Avoid_: Github readme, bio markdown, profile page

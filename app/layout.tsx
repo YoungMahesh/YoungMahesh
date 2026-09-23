@@ -27,6 +27,12 @@ export const metadata: Metadata = {
   title: "Mahesh Ghamand — Software Engineer (Backend & Cloud Infrastructure)",
   description:
     "Software Engineer specializing in backend systems, distributed storage proxies, Git transport internals, and streaming database pipelines. Creator of S3-Split, Repo Manage, and SQL Backups.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+  },
   keywords: [
     "Mahesh Ghamand",
     "Software Engineer",
