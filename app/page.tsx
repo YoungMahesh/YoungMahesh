@@ -13,6 +13,7 @@ const projectsData: ProjectData[] = [
     id: "s3-split",
     title: "S3-Split",
     subtitle: "Storage Gateway & Quotas",
+    methodologyBadge: "Spec-Driven Agentic Build",
     tagline:
       "Multi-tenant proxy that partitions S3-compatible storage into managed virtual prefixes with strictly enforced byte-accurate quotas.",
     liveUrl: "https://s3-split.mahesh0.dev/",
@@ -24,6 +25,7 @@ const projectsData: ProjectData[] = [
     summary:
       "S3-Split sits transparently between client applications and upstream object storage providers (AWS S3, Cloudflare R2, MinIO, Wasabi). It intercepts incoming S3 REST requests, validates SigV4 HMAC signatures, verifies real-time byte quota limits against a PostgreSQL object registry, and reserves chunk parts during multipart uploads to prevent concurrent over-allocation leaks.",
     highlights: [
+      "Engineered via Specification-Driven Agentic workflows: validated SigV4 HMAC compliance and quota locks using automated integration test suites and concurrent multipart stress tests.",
       "Partitions a single physical bucket into hundreds of virtual prefix 'Managed Buckets' authenticated via scoped Client Keys (s3s_ck_...).",
       "Transparently proxies PUT, GET, DELETE, and multipart operations with 100% AWS SDK drop-in compatibility and zero client code rewrites.",
       "Maintains relational PostgreSQL object registry with continuous baseline upstream scanning for sub-millisecond quota lookups.",
@@ -87,6 +89,7 @@ await s3.send(
     id: "repo-manage",
     title: "Repo Manage",
     subtitle: "Sovereign GitHub Backups",
+    methodologyBadge: "Spec-Driven Agentic Build",
     tagline:
       "Automated Git bundle disaster recovery backups for GitHub organizations with strict read-only scoping and native restoration.",
     liveUrl: "https://repo-manage.mahesh0.dev/",
@@ -98,6 +101,7 @@ await s3.send(
     summary:
       "Repo Manage connects GitHub organizations with strict read-only permissions to archive complete commit graphs into deterministic, point-in-time Git bundles (.bundle). Unlike flat tarballs or zip archives that discard branch pointers and tag histories, native Git bundles preserve every commit SHA, merge parent, branch ref, and annotated tag cryptographically.",
     highlights: [
+      "Engineered via Specification-Driven Agentic workflows: validated packfile integrity and ref completeness via automated git bundle verify checks and round-trip clone test suites.",
       "Headless automated worker streams verified Git bundle packfiles directly to AES-256 KMS / SSE-S3 encrypted private object storage.",
       "1-command native disaster recovery: 'git clone <bundle-file>' restores all local and remote branches offline without proprietary tooling.",
       "Implements automated rolling retention windows per repository, safely pruning older bundles to control storage growth.",
@@ -151,6 +155,7 @@ git clone core-api-2026-09-22T040000Z.bundle restored-core-api
     id: "sql-backups",
     title: "SQL Backups",
     subtitle: "Streaming Database Protection",
+    methodologyBadge: "Spec-Driven Agentic Build",
     tagline:
       "Automated and scheduled SQL database backups with in-process streaming and instant companion manifest inspection.",
     liveUrl: "https://sql-backups.mahesh0.dev/",
@@ -162,6 +167,7 @@ git clone core-api-2026-09-22T040000Z.bundle restored-core-api
     summary:
       "SQL Backups provides enterprise-grade database backups engineered around a memory-bounded streaming architecture. It extracts database records in batched cursor streams and pipes them on-the-fly through Gzip compression directly into S3-compatible storage, completely eliminating temporary dump files and local disk exhaustion on large production databases.",
     highlights: [
+      "Engineered via Specification-Driven Agentic workflows: validated zero-disk memory-bounded streaming via heap profilers and database round-trip restore integrity tests across PostgreSQL, MySQL, and libSQL.",
       "Dedicated dialect exporters for PostgreSQL (DDL, constraints, sequences), MySQL (connection pools, table locks, auto-increment), and SQLite / libSQL / Turso (sqlite_schema, sequence capture).",
       "Dual-object upload generates companion .manifest.json sidecars recording table names, row counts, and sizes for instant inspection without downloading large dumps.",
       "Native interoperability with self-hosted SeaweedFS, AWS S3, Cloudflare R2, and MinIO backends using multipart upload protocols.",

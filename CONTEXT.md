@@ -43,3 +43,8 @@ _Avoid_: Avatar, headshot, selfie, picture, mugshot
 **Profile README**:
 The root Markdown document for the special `YoungMahesh/YoungMahesh` repository rendered publicly on Mahesh's GitHub profile, synthesizing systems engineering positioning, Flagship Projects, and Skill Clusters.
 _Avoid_: Github readme, bio markdown, profile page
+
+**Specification-Driven Agentic Engineering**:
+A development methodology where the engineer acts as systems architect—defining strict architectural invariants, protocols, and automated test harnesses to steer autonomous AI agents—validating code correctness through comprehensive verification suites and failure-mode testing rather than passive acceptance.
+_Avoid_: Vibe coding, prompt engineering, unverified code generation, tab-completer
+

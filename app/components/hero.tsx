@@ -44,6 +44,7 @@ export function Hero() {
             {/* Narrative Description */}
             <p className="font-sans text-base sm:text-lg leading-relaxed text-body max-w-2xl">
               Software engineer with deep focus on backend systems, protocol compliance, and cloud storage infrastructure. 
+              Builds production systems with high velocity through <strong>Specification-Driven Agentic Engineering</strong>—directing autonomous AI agents under rigorous automated test suites, protocol invariants, and failure-mode validation. 
               Creator of <strong>S3-Split</strong> (SigV4 multi-tenant quota gateway), <strong>Repo Manage</strong> (sovereign native Git bundle archiving), 
               and <strong>SQL Backups</strong> (zero-disk streaming database extractors). Experienced in Go, TypeScript, Node.js, PostgreSQL, and AWS S3-compatible ecosystems.
             </p>
@@ -162,6 +163,16 @@ export function Hero() {
                   </div>
                   <p className="text-xs text-muted leading-relaxed">
                     Zero-disk memory-bounded database extractors (PostgreSQL, MySQL, libSQL) with companion manifest sidecars.
+                  </p>
+                </div>
+
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2 text-xs font-semibold text-ink">
+                    <span className="h-1.5 w-1.5 rounded-full bg-success" />
+                    <span>Specification-Driven Agentic Delivery</span>
+                  </div>
+                  <p className="text-xs text-muted leading-relaxed">
+                    Directing autonomous AI agents under automated integration suites, concurrency stress tests, and invariant validation for rapid, reliable systems delivery.
                   </p>
                 </div>
               </div>

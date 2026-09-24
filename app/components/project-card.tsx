@@ -6,6 +6,7 @@ export interface ProjectData {
   id: string;
   title: string;
   subtitle: string;
+  methodologyBadge?: string;
   tagline: string;
   liveUrl: string;
   invariants: string[];
@@ -53,6 +54,12 @@ export function ProjectCard({ project, isExpanded, onToggle }: ProjectCardProps)
             <span className="inline-flex items-center rounded-full bg-primary/10 border border-primary/20 px-2.5 py-0.5 text-xs font-medium text-primary">
               {project.subtitle}
             </span>
+            {project.methodologyBadge && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-teal/10 border border-accent-teal/30 px-2.5 py-0.5 text-xs font-medium text-accent-teal font-mono">
+                <span className="h-1.5 w-1.5 rounded-full bg-accent-teal shrink-0" />
+                <span>{project.methodologyBadge}</span>
+              </span>
+            )}
           </div>
           <p className="text-xs sm:text-sm text-muted font-sans">
             {project.tagline}

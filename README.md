@@ -17,7 +17,7 @@ Portfolio: [mahesh0.dev](https://mahesh0.dev) • [youngmahesh.vercel.app](https
 
 ## Technical Positioning
 
-Software engineer specializing in distributed backend systems, protocol compliance, and cloud storage infrastructure. Architect and builder of three production systems:
+Software engineer specializing in distributed backend systems, protocol compliance, and cloud storage infrastructure. Builds production systems with high velocity through **Specification-Driven Agentic Engineering**—directing autonomous AI agents under rigorous automated test suites, protocol invariants, and failure-mode validation. Architect and builder of three production systems:
 
 1. **S3-Split**: A high-throughput Storage Gateway enforcing real-time quotas and virtual prefix partitions on S3-compatible storage.
 2. **Repo Manage**: A sovereign disaster recovery engine creating cryptographic Native Git Bundle archives from GitHub organizations.
@@ -31,7 +31,7 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 
 ### 1. S3-Split — Storage Gateway & Quotas
 > Multi-tenant proxy that partitions S3-compatible storage into managed virtual prefixes with strictly enforced byte-accurate quotas.  
-> **Live System:** [https://s3-split.mahesh0.dev/](https://s3-split.mahesh0.dev/)
+> **Live System:** [https://s3-split.mahesh0.dev/](https://s3-split.mahesh0.dev/) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **0 Over-Allocation Leaks:** Pre-upload byte quota reservations prevent concurrent multipart upload quota breaches.
@@ -65,14 +65,14 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 ```
 
 #### Key Highlights & Stack
-- **Highlights:** Maintains relational PostgreSQL object registry with continuous baseline upstream scanning; transparent multipart chunk reservation; master credentials protected by AES-256-GCM authenticated encryption at rest.
+- **Highlights:** Engineered via Specification-Driven Agentic workflows: validated SigV4 HMAC compliance and quota locks using automated integration test suites and concurrent multipart stress tests; maintains relational PostgreSQL object registry with continuous baseline upstream scanning; transparent multipart chunk reservation; master credentials protected by AES-256-GCM authenticated encryption at rest.
 - **Stack:** `TypeScript`, `Node.js`, `AWS SDK v3`, `SigV4 Protocol`, `PostgreSQL`, `AES-256-GCM`, `Docker`.
 
 ---
 
 ### 2. Repo Manage — Sovereign GitHub Backups
 > Automated Git bundle disaster recovery backups for GitHub organizations with strict read-only scoping and native restoration.  
-> **Live System:** [https://repo-manage.mahesh0.dev/](https://repo-manage.mahesh0.dev/)
+> **Live System:** [https://repo-manage.mahesh0.dev/](https://repo-manage.mahesh0.dev/) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **Zero Write Scopes (`contents:read` only):** Minimal principle of least privilege; impossible to mutate code, branches, or secrets.
@@ -105,14 +105,14 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 ```
 
 #### Key Highlights & Stack
-- **Highlights:** Headless automated worker streams verified Git bundle packfiles directly to AES-256 KMS encrypted private object storage; automated rolling retention windows per repository; user-initiated Archive Purge permanently cleans S3 and DB records.
+- **Highlights:** Engineered via Specification-Driven Agentic workflows: validated packfile integrity and ref completeness via automated `git bundle verify` checks and round-trip clone test suites; headless automated worker streams verified Git bundle packfiles directly to AES-256 KMS encrypted private object storage; automated rolling retention windows per repository; user-initiated Archive Purge permanently cleans S3 and DB records.
 - **Stack:** `TypeScript`, `Node.js`, `Git CLI & .bundle`, `AWS S3`, `KMS / SSE-S3`, `PostgreSQL`, `GitHub OAuth App`.
 
 ---
 
 ### 3. SQL Backups — Streaming Database Protection
 > Automated and scheduled SQL database backups with in-process streaming and instant companion manifest inspection.  
-> **Live System:** [https://sql-backups.mahesh0.dev/](https://sql-backups.mahesh0.dev/)
+> **Live System:** [https://sql-backups.mahesh0.dev/](https://sql-backups.mahesh0.dev/) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **100% In-Process Streaming Pipeline:** Records extracted from database cursors and compressed on-the-fly directly to object storage.
@@ -148,7 +148,7 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 ```
 
 #### Key Highlights & Stack
-- **Highlights:** Dedicated dialect exporters for PostgreSQL (sequences, constraints), MySQL (table locks, auto-increment), and SQLite/libSQL/Turso; dual-object upload pairing `.sql.gz` with JSON schema sidecars; timezone-aware cron scheduler with automated retention pruning.
+- **Highlights:** Engineered via Specification-Driven Agentic workflows: validated zero-disk memory-bounded streaming via heap profilers and database round-trip restore integrity tests across PostgreSQL, MySQL, and libSQL; dedicated dialect exporters for PostgreSQL (sequences, constraints), MySQL (table locks, auto-increment), and SQLite/libSQL/Turso; dual-object upload pairing `.sql.gz` with JSON schema sidecars; timezone-aware cron scheduler with automated retention pruning.
 - **Stack:** `TypeScript`, `Node.js`, `PostgreSQL`, `MySQL`, `SQLite / libSQL`, `SeaweedFS / S3`, `Streaming Gzip`, `AES-256-GCM`.
 
 ---
