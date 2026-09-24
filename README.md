@@ -20,7 +20,7 @@ Portfolio: [mahesh0.dev](https://mahesh0.dev) • [youngmahesh.vercel.app](https
 Software engineer specializing in distributed backend systems, protocol compliance, and cloud storage infrastructure. Builds production systems with high velocity through **Specification-Driven Agentic Engineering**—directing autonomous AI agents under rigorous automated test suites, protocol invariants, and failure-mode validation. Architect and builder of three production systems:
 
 1. **S3-Split**: A high-throughput Storage Gateway enforcing real-time quotas and virtual prefix partitions on S3-compatible storage.
-2. **Repo Manage**: A sovereign disaster recovery engine creating cryptographic Native Git Bundle archives from GitHub organizations.
+2. **Repo Backups**: A sovereign disaster recovery engine creating cryptographic Native Git Bundle archives from GitHub organizations.
 3. **SQL Backups**: An In-Process Streaming database extraction and compression pipeline with companion metadata sidecars.
 
 Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distributed cloud storage backends (**AWS S3**, **Cloudflare R2**, **MinIO**, **SeaweedFS**).
@@ -70,9 +70,9 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 
 ---
 
-### 2. Repo Manage — Sovereign GitHub Backups
+### 2. Repo Backups — Sovereign GitHub Backups
 > Automated Git bundle disaster recovery backups for GitHub organizations with strict read-only scoping and native restoration.  
-> **Live System:** [https://repo-manage.mahesh0.dev/](https://repo-manage.mahesh0.dev/) • **Methodology:** Spec-Driven Agentic Build
+> **Live System:** [https://repo-backups.mahesh0.dev](https://repo-backups.mahesh0.dev) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **Zero Write Scopes (`contents:read` only):** Minimal principle of least privilege; impossible to mutate code, branches, or secrets.

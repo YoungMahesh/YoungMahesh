@@ -49,12 +49,12 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://repo-manage.mahesh0.dev/"
+                  href="https://repo-backups.mahesh0.dev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-on-dark transition-colors"
                 >
-                  Repo Manage (Git Bundles)
+                  Repo Backups (Git Bundles)
                 </a>
               </li>
               <li>

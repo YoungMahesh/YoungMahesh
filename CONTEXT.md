@@ -5,8 +5,8 @@ The domain glossary and language rules for Mahesh's software engineering resume 
 ## Language
 
 **Flagship Project**:
-One of the three core infrastructure systems (S3-Split, Repo Manage, SQL Backups) engineered to prove architectural depth, protocol compliance, and reliability.
-_Avoid_: Side project, hobby app, toy project
+One of the three core infrastructure systems (S3-Split, Repo Backups, SQL Backups) engineered to prove architectural depth, protocol compliance, and reliability.
+_Avoid_: Side project, hobby app, toy project, Repo Manage, repo-manage
 
 **Architecture Deep Dive**:
 An expandable technical inspection view within a Flagship Project card detailing request lifecycle, invariants, and data flow.

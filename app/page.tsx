@@ -86,20 +86,20 @@ await s3.send(
     },
   },
   {
-    id: "repo-manage",
-    title: "Repo Manage",
+    id: "repo-backups",
+    title: "Repo Backups",
     subtitle: "Sovereign GitHub Backups",
     methodologyBadge: "Spec-Driven Agentic Build",
     tagline:
       "Automated Git bundle disaster recovery backups for GitHub organizations with strict read-only scoping and native restoration.",
-    liveUrl: "https://repo-manage.mahesh0.dev/",
+    liveUrl: "https://repo-backups.mahesh0.dev",
     invariants: [
       "Zero Write Scopes (contents:read only)",
       "True .bundle Format (Full Graphs)",
       "1-Command Native Git Restoration",
     ],
     summary:
-      "Repo Manage connects GitHub organizations with strict read-only permissions to archive complete commit graphs into deterministic, point-in-time Git bundles (.bundle). Unlike flat tarballs or zip archives that discard branch pointers and tag histories, native Git bundles preserve every commit SHA, merge parent, branch ref, and annotated tag cryptographically.",
+      "Repo Backups connects GitHub organizations with strict read-only permissions to archive complete commit graphs into deterministic, point-in-time Git bundles (.bundle). Unlike flat tarballs or zip archives that discard branch pointers and tag histories, native Git bundles preserve every commit SHA, merge parent, branch ref, and annotated tag cryptographically.",
     highlights: [
       "Engineered via Specification-Driven Agentic workflows: validated packfile integrity and ref completeness via automated git bundle verify checks and round-trip clone test suites.",
       "Headless automated worker streams verified Git bundle packfiles directly to AES-256 KMS / SSE-S3 encrypted private object storage.",
