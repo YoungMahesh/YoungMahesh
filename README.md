@@ -31,7 +31,7 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 
 ### 1. S3-Split — Storage Gateway & Quotas
 > Multi-tenant proxy that partitions S3-compatible storage into managed virtual prefixes with strictly enforced byte-accurate quotas.  
-> **Live System:** [https://s3-split.mahesh0.dev/](https://s3-split.mahesh0.dev/) • **Methodology:** Spec-Driven Agentic Build
+> **Live System:** [https://s3-split.mahesh0.dev/](https://s3-split.mahesh0.dev/) • **Repository:** [YoungMahesh/s3-split](https://github.com/YoungMahesh/s3-split) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **0 Over-Allocation Leaks:** Pre-upload byte quota reservations prevent concurrent multipart upload quota breaches.
@@ -72,7 +72,7 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 
 ### 2. Repo Backups — Sovereign GitHub Backups
 > Automated Git bundle disaster recovery backups for GitHub organizations with strict read-only scoping and native restoration.  
-> **Live System:** [https://repo-backups.mahesh0.dev](https://repo-backups.mahesh0.dev) • **Methodology:** Spec-Driven Agentic Build
+> **Live System:** [https://repo-backups.mahesh0.dev](https://repo-backups.mahesh0.dev) • **Repository:** [YoungMahesh/repo-backups](https://github.com/YoungMahesh/repo-backups) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **Zero Write Scopes (`contents:read` only):** Minimal principle of least privilege; impossible to mutate code, branches, or secrets.
@@ -112,7 +112,7 @@ Experienced in **Go**, **TypeScript**, **Node.js**, **PostgreSQL**, and distribu
 
 ### 3. SQL Backups — Streaming Database Protection
 > Automated and scheduled SQL database backups with in-process streaming and instant companion manifest inspection.  
-> **Live System:** [https://sql-backups.mahesh0.dev/](https://sql-backups.mahesh0.dev/) • **Methodology:** Spec-Driven Agentic Build
+> **Live System:** [https://sql-backups.mahesh0.dev/](https://sql-backups.mahesh0.dev/) • **Repository:** [YoungMahesh/sql-backups](https://github.com/YoungMahesh/sql-backups) • **Methodology:** Spec-Driven Agentic Build
 
 #### Technical Invariants
 - **100% In-Process Streaming Pipeline:** Records extracted from database cursors and compressed on-the-fly directly to object storage.

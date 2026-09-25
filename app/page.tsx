@@ -17,6 +17,7 @@ const projectsData: ProjectData[] = [
     tagline:
       "Multi-tenant proxy that partitions S3-compatible storage into managed virtual prefixes with strictly enforced byte-accurate quotas.",
     liveUrl: "https://s3-split.mahesh0.dev/",
+    githubUrl: "https://github.com/YoungMahesh/s3-split",
     invariants: [
       "0 Over-Allocation Leaks",
       "Bypass AWS 100-Bucket Limit",
@@ -93,6 +94,7 @@ await s3.send(
     tagline:
       "Automated Git bundle disaster recovery backups for GitHub organizations with strict read-only scoping and native restoration.",
     liveUrl: "https://repo-backups.mahesh0.dev",
+    githubUrl: "https://github.com/YoungMahesh/repo-backups",
     invariants: [
       "Zero Write Scopes (contents:read only)",
       "True .bundle Format (Full Graphs)",
@@ -159,6 +161,7 @@ git clone core-api-2026-09-22T040000Z.bundle restored-core-api
     tagline:
       "Automated and scheduled SQL database backups with in-process streaming and instant companion manifest inspection.",
     liveUrl: "https://sql-backups.mahesh0.dev/",
+    githubUrl: "https://github.com/YoungMahesh/sql-backups",
     invariants: [
       "100% In-Process Streaming Pipeline",
       "0 Temporary Local Disk Overhead",
